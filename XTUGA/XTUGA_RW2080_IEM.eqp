@@ -1,0 +1,74 @@
+<equipment_profile appl_version="7.1.0.285" date="Thu Feb 6 2025" source="Davids-MBP-2.localdomain" time="20:16:20" version="2.0">
+    <device>
+        <identification>
+            <manufacturer>XTUGA</manufacturer>
+            <model>RW2080</model>
+            <band>IEM</band>
+            <type>In Ear Monitor</type>
+        </identification>
+        <device_parameters>
+            <tuning_capability id="01a33cf3-8fbd-48ce-aa28-3b10bf9336fa" version="0.0.0.1">
+                <range freq_units="KHz">
+                    <start>572000</start>
+                    <end>603000</end>
+                    <step>32</step>
+                </range>
+                <sub_range_list freq_units="KHz">
+                    <sub_range>
+                        <start>572000</start>
+                        <end>603000</end>
+                    </sub_range>
+                </sub_range_list>
+            </tuning_capability>
+            <tx_power units="mW">100</tx_power>
+            <channels>1</channels>
+        </device_parameters>
+        <compat_profiles units="kHz">
+            <compat_profile name="Robust" id="c85d4358-678f-4ec0-9d45-41a5b1cf8986" imd_source="1" synthesizable="1" version="0.0.0.1">
+                <spacing freq_units="KHz">
+                    <ch_ch>600</ch_ch>
+                    <imd_2t3o>200</imd_2t3o>
+                    <imd_2t5o>150</imd_2t5o>
+                    <imd_2t7o>0</imd_2t7o>
+                    <imd_2t9o>0</imd_2t9o>
+                    <imd_3t3o>200</imd_3t3o>
+                </spacing>
+                <filter type="0">
+                    <filter_start>-100000</filter_start>
+                    <filter_end>100000</filter_end>
+                    <filter_center>0</filter_center>
+                </filter>
+            </compat_profile>
+            <compat_profile name="Standard" id="fc1462a2-8c0b-48a4-823e-50f004ae9274" imd_source="1" synthesizable="1" version="0.0.0.1">
+                <spacing freq_units="KHz">
+                    <ch_ch>500</ch_ch>
+                    <imd_2t3o>200</imd_2t3o>
+                    <imd_2t5o>0</imd_2t5o>
+                    <imd_2t7o>0</imd_2t7o>
+                    <imd_2t9o>0</imd_2t9o>
+                    <imd_3t3o>200</imd_3t3o>
+                </spacing>
+                <filter type="0">
+                    <filter_start>-50000</filter_start>
+                    <filter_end>50000</filter_end>
+                    <filter_center>0</filter_center>
+                </filter>
+            </compat_profile>
+            <compat_profile name="More Frequencies" id="19ce8c07-7215-42db-b35a-be8286024d7a" imd_source="1" synthesizable="1" version="0.0.0.1">
+                <spacing freq_units="KHz">
+                    <ch_ch>336</ch_ch>
+                    <imd_2t3o>200</imd_2t3o>
+                    <imd_2t5o>0</imd_2t5o>
+                    <imd_2t7o>0</imd_2t7o>
+                    <imd_2t9o>0</imd_2t9o>
+                    <imd_3t3o>0</imd_3t3o>
+                </spacing>
+                <filter type="0">
+                    <filter_start>-50000</filter_start>
+                    <filter_end>50000</filter_end>
+                    <filter_center>0</filter_center>
+                </filter>
+            </compat_profile>
+        </compat_profiles>
+    </device>
+</equipment_profile>

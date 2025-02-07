@@ -1,0 +1,74 @@
+<equipment_profile appl_version="7.1.0.285" date="Thu Feb 6 2025" source="Davids-MBP-2.localdomain" time="20:16:58" version="2.0">
+    <device>
+        <identification>
+            <manufacturer>Phenyx Pro</manufacturer>
+            <model>PTU-7000</model>
+            <band>2</band>
+            <type>Microphone</type>
+        </identification>
+        <device_parameters>
+            <tuning_capability id="01c67a7f-6a68-4978-83ae-e6d1769a0378" version="0.0.0.1">
+                <range freq_units="KHz">
+                    <start>554800</start>
+                    <end>566500</end>
+                    <step>25</step>
+                </range>
+                <sub_range_list freq_units="KHz">
+                    <sub_range>
+                        <start>554800</start>
+                        <end>566500</end>
+                    </sub_range>
+                </sub_range_list>
+            </tuning_capability>
+            <tx_power units="mW">10,20,30,50</tx_power>
+            <channels>1</channels>
+        </device_parameters>
+        <compat_profiles units="kHz">
+            <compat_profile name="Robust" id="720c68be-c9e8-4519-b54b-1380ec45834c" imd_source="1" synthesizable="1" version="0.0.0.1">
+                <spacing freq_units="KHz">
+                    <ch_ch>600</ch_ch>
+                    <imd_2t3o>275</imd_2t3o>
+                    <imd_2t5o>150</imd_2t5o>
+                    <imd_2t7o>0</imd_2t7o>
+                    <imd_2t9o>0</imd_2t9o>
+                    <imd_3t3o>150</imd_3t3o>
+                </spacing>
+                <filter type="0">
+                    <filter_start>-100000</filter_start>
+                    <filter_end>100000</filter_end>
+                    <filter_center>0</filter_center>
+                </filter>
+            </compat_profile>
+            <compat_profile name="Standard" id="b7cb4e7b-26c8-4bf9-83f7-3a644b685dce" imd_source="1" synthesizable="1" version="0.0.0.1">
+                <spacing freq_units="KHz">
+                    <ch_ch>500</ch_ch>
+                    <imd_2t3o>275</imd_2t3o>
+                    <imd_2t5o>0</imd_2t5o>
+                    <imd_2t7o>0</imd_2t7o>
+                    <imd_2t9o>0</imd_2t9o>
+                    <imd_3t3o>150</imd_3t3o>
+                </spacing>
+                <filter type="0">
+                    <filter_start>-50000</filter_start>
+                    <filter_end>50000</filter_end>
+                    <filter_center>0</filter_center>
+                </filter>
+            </compat_profile>
+            <compat_profile name="More Frequencies" id="5dd73f53-de17-4182-86c5-f31ce8e81e60" imd_source="1" synthesizable="1" version="0.0.0.1">
+                <spacing freq_units="KHz">
+                    <ch_ch>350</ch_ch>
+                    <imd_2t3o>175</imd_2t3o>
+                    <imd_2t5o>0</imd_2t5o>
+                    <imd_2t7o>0</imd_2t7o>
+                    <imd_2t9o>0</imd_2t9o>
+                    <imd_3t3o>0</imd_3t3o>
+                </spacing>
+                <filter type="0">
+                    <filter_start>-50000</filter_start>
+                    <filter_end>50000</filter_end>
+                    <filter_center>0</filter_center>
+                </filter>
+            </compat_profile>
+        </compat_profiles>
+    </device>
+</equipment_profile>

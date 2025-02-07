@@ -1,0 +1,74 @@
+<equipment_profile appl_version="7.1.0.285" date="Thu Feb 6 2025" source="Davids-MBP-2.localdomain" time="20:18:21" version="2.0">
+    <device>
+        <identification>
+            <manufacturer>GTDaudio</manufacturer>
+            <model>B-33</model>
+            <band>D</band>
+            <type>Microphone</type>
+        </identification>
+        <device_parameters>
+            <tuning_capability id="2ab7b902-64fd-4f67-904f-7284b900f324" version="0.0.0.1">
+                <range freq_units="KHz">
+                    <start>562500</start>
+                    <end>580000</end>
+                    <step>25</step>
+                </range>
+                <sub_range_list freq_units="KHz">
+                    <sub_range>
+                        <start>562500</start>
+                        <end>580000</end>
+                    </sub_range>
+                </sub_range_list>
+            </tuning_capability>
+            <tx_power units="mW">10,20,30,50</tx_power>
+            <channels>1</channels>
+        </device_parameters>
+        <compat_profiles units="kHz">
+            <compat_profile name="Robust" id="87a439e8-160f-496c-a229-d795096cac16" imd_source="1" synthesizable="1" version="0.0.0.1">
+                <spacing freq_units="KHz">
+                    <ch_ch>600</ch_ch>
+                    <imd_2t3o>275</imd_2t3o>
+                    <imd_2t5o>150</imd_2t5o>
+                    <imd_2t7o>0</imd_2t7o>
+                    <imd_2t9o>0</imd_2t9o>
+                    <imd_3t3o>150</imd_3t3o>
+                </spacing>
+                <filter type="0">
+                    <filter_start>-100000</filter_start>
+                    <filter_end>100000</filter_end>
+                    <filter_center>0</filter_center>
+                </filter>
+            </compat_profile>
+            <compat_profile name="Standard" id="872907bf-0654-417c-849a-0043afbba9b5" imd_source="1" synthesizable="1" version="0.0.0.1">
+                <spacing freq_units="KHz">
+                    <ch_ch>500</ch_ch>
+                    <imd_2t3o>275</imd_2t3o>
+                    <imd_2t5o>0</imd_2t5o>
+                    <imd_2t7o>0</imd_2t7o>
+                    <imd_2t9o>0</imd_2t9o>
+                    <imd_3t3o>150</imd_3t3o>
+                </spacing>
+                <filter type="0">
+                    <filter_start>-50000</filter_start>
+                    <filter_end>50000</filter_end>
+                    <filter_center>0</filter_center>
+                </filter>
+            </compat_profile>
+            <compat_profile name="More Frequencies" id="972a2b0a-f5f1-412b-a6b1-99a5b6ce979a" imd_source="1" synthesizable="1" version="0.0.0.1">
+                <spacing freq_units="KHz">
+                    <ch_ch>350</ch_ch>
+                    <imd_2t3o>175</imd_2t3o>
+                    <imd_2t5o>0</imd_2t5o>
+                    <imd_2t7o>0</imd_2t7o>
+                    <imd_2t9o>0</imd_2t9o>
+                    <imd_3t3o>0</imd_3t3o>
+                </spacing>
+                <filter type="0">
+                    <filter_start>-50000</filter_start>
+                    <filter_end>50000</filter_end>
+                    <filter_center>0</filter_center>
+                </filter>
+            </compat_profile>
+        </compat_profiles>
+    </device>
+</equipment_profile>
