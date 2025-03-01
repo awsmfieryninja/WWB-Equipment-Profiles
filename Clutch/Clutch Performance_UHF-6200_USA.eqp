@@ -1,0 +1,73 @@
+<equipment_profile appl_version="7.4.0.87" time="15:27:22" source="Davids-MBP-2.localdomain" date="Sat Mar 1 2025" version="2.0">
+    <device>
+        <identification>
+            <manufacturer>Clutch Performance</manufacturer>
+            <model>UHF-6200</model>
+            <band>USA</band>
+            <type>Microphone</type>
+        </identification>
+        <device_parameters>
+            <tuning_capability id="190d5335-3c31-4b3b-adcb-c3962a912aec" version="0.0.0.1">
+                <range freq_units="KHz">
+                    <start>512000</start>
+                    <end>537500</end>
+                    <step>25</step>
+                </range>
+                <sub_range_list freq_units="KHz">
+                    <sub_range>
+                        <start>512000</start>
+                        <end>537500</end>
+                    </sub_range>
+                </sub_range_list>
+            </tuning_capability>
+            <channels>1</channels>
+        </device_parameters>
+        <compat_profiles units="kHz">
+            <compat_profile name="Robust" synthesizable="1" imd_source="1" id="8096aafa-6664-4159-8cdd-c63a4cf16b31" version="0.0.0.1">
+                <spacing freq_units="KHz">
+                    <ch_ch>1200</ch_ch>
+                    <imd_2t3o>500</imd_2t3o>
+                    <imd_2t5o>225</imd_2t5o>
+                    <imd_2t7o>175</imd_2t7o>
+                    <imd_2t9o>175</imd_2t9o>
+                    <imd_3t3o>150</imd_3t3o>
+                </spacing>
+                <filter type="0">
+                    <filter_start>-200000</filter_start>
+                    <filter_end>200000</filter_end>
+                    <filter_center>0</filter_center>
+                </filter>
+            </compat_profile>
+            <compat_profile name="Standard" synthesizable="1" imd_source="1" id="13bb5968-8de6-482f-9b98-4dadffabf854" version="0.0.0.1">
+                <spacing freq_units="KHz">
+                    <ch_ch>800</ch_ch>
+                    <imd_2t3o>225</imd_2t3o>
+                    <imd_2t5o>175</imd_2t5o>
+                    <imd_2t7o>150</imd_2t7o>
+                    <imd_2t9o>150</imd_2t9o>
+                    <imd_3t3o>125</imd_3t3o>
+                </spacing>
+                <filter type="0">
+                    <filter_start>-150000</filter_start>
+                    <filter_end>150000</filter_end>
+                    <filter_center>0</filter_center>
+                </filter>
+            </compat_profile>
+            <compat_profile name="More Frequencies" synthesizable="1" imd_source="1" id="368592d2-2667-4ca9-835e-a3d11216d5ee" version="0.0.0.1">
+                <spacing freq_units="KHz">
+                    <ch_ch>750</ch_ch>
+                    <imd_2t3o>175</imd_2t3o>
+                    <imd_2t5o>100</imd_2t5o>
+                    <imd_2t7o>100</imd_2t7o>
+                    <imd_2t9o>100</imd_2t9o>
+                    <imd_3t3o>125</imd_3t3o>
+                </spacing>
+                <filter type="0">
+                    <filter_start>-130000</filter_start>
+                    <filter_end>130000</filter_end>
+                    <filter_center>0</filter_center>
+                </filter>
+            </compat_profile>
+        </compat_profiles>
+    </device>
+</equipment_profile>
