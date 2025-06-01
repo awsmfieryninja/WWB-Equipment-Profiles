@@ -2,7 +2,7 @@
     <device>
         <identification>
             <manufacturer>Sennheiser</manufacturer>
-            <model>XSW</model>
+            <model>XSW 1</model>
             <band>A</band>
             <type>Microphone</type>
         </identification>
