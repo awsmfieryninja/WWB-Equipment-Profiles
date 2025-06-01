@@ -107,11 +107,11 @@
             <compat_profile name="Standard" id="1a4110fe-47f9-443a-b338-1386ec955c34" imd_source="1" synthesizable="1" version="0.0.0.1">
                 <spacing freq_units="KHz">
                     <ch_ch>400</ch_ch>
-                    <imd_2t3o>200</imd_2t3o>
-                    <imd_2t5o>0</imd_2t5o>
+                    <imd_2t3o>100</imd_2t3o>
+                    <imd_2t5o>100</imd_2t5o>
                     <imd_2t7o>0</imd_2t7o>
                     <imd_2t9o>0</imd_2t9o>
-                    <imd_3t3o>150</imd_3t3o>
+                    <imd_3t3o>100</imd_3t3o>
                 </spacing>
                 <filter type="0">
                     <filter_start>-50000</filter_start>
