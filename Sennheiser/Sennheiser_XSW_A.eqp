@@ -119,7 +119,7 @@
             <compat_profile name="More Frequencies" id="04fe5310-254a-49e1-9387-7ecde15466b6" imd_source="1" synthesizable="1" version="0.0.0.1">
                 <spacing freq_units="KHz">
                     <ch_ch>350</ch_ch>
-                    <imd_2t3o>175</imd_2t3o>
+                    <imd_2t3o>100</imd_2t3o>
                     <imd_2t5o>0</imd_2t5o>
                     <imd_2t7o>0</imd_2t7o>
                     <imd_2t9o>0</imd_2t9o>
