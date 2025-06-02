@@ -81,10 +81,6 @@
 - MIPRO/MIPRO_ACT8_6E.eqp
 
 # David Walters
-- GTDaudio_B-33_A.eqp
-- GTDaudio_B-33_B.eqp
-- GTDaudio_B-33_C.eqp
-- GTDaudio_B-33_D.eqp
 - GTDaudio_G-787_A.eqp
 - GTDaudio_G-787_B.eqp
 - GTDaudio_G-787_C.eqp
